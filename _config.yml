@@ -26,7 +26,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
+  'README.md'
 
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts. default is :title.md
@@ -85,8 +86,14 @@ deploy:
 # New configuration , For site search
 ## Algolia Search API Key
 algolia:
-   applicationID: PL4Z8NAKE6
-   indexName: test
-   apiKey: a8748b4f97cea65428ff2340b9996354
-   adminApiKey: dab34fb977884e1ecfa78316c59fc6f0
+   applicationID: WCAIRX5QT9
+   indexName: search
+   apiKey: 1c61c6aaa47d24115e545debb7ad86d0
+   adminApiKey: d38ce9a2879e0f8a74b659708e595534
    chunkSize: 5000
+
+# add post views
+leancloud_visitors:
+  enable: true
+  app_id: gYB1ftjL9bOunaUfvV1losQn-gzGzoHsz
+  app_key: vV85umvky7341W6YNSSumpDH
