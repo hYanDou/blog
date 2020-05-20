@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "welcome,黄小豆的博客~~"
+title: "黄小豆的博客"
 subtitle:
 description: "前端技术share"
-keywords:
+keywords: "前端博客,学习"
 author: "黄小豆"
 language: zh-Hans
 timezone:
